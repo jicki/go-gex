@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/luxun9527/gex/common/pkg/etcd"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/common/pkg/etcd"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/rest"
 )
 

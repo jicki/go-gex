@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"github.com/luxun9527/gex/app/order/rpc/internal/logic"
-	"github.com/luxun9527/gex/app/order/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/pb"
+	"gex/app/order/rpc/internal/logic"
+	"gex/app/order/rpc/internal/svc"
+	"gex/app/order/rpc/pb"
 )
 
 type OrderServiceServer struct {

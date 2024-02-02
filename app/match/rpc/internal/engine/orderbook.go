@@ -2,8 +2,8 @@ package engine
 
 import (
 	"fmt"
+	enum "gex/common/proto/enum"
 	rbt "github.com/emirpasic/gods/trees/redblacktree"
-	enum "github.com/luxun9527/gex/common/proto/enum"
 	"github.com/shopspring/decimal"
 )
 

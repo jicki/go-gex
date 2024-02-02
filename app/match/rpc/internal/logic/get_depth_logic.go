@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"github.com/luxun9527/gex/app/match/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/match/rpc/pb"
+	"gex/app/match/rpc/internal/svc"
+	"gex/app/match/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

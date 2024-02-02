@@ -2,11 +2,11 @@ package logic
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/quotes/kline/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/quotes/kline/rpc/pb"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/quotes/kline/rpc/internal/svc"
+	"gex/app/quotes/kline/rpc/pb"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/utils"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

@@ -2,11 +2,11 @@ package svc
 
 import (
 	"encoding/json"
-	"github.com/luxun9527/gex/app/account/api/internal/config"
-	"github.com/luxun9527/gex/app/account/api/internal/middleware"
-	"github.com/luxun9527/gex/app/account/rpc/accountservice"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/app/account/api/internal/config"
+	"gex/app/account/api/internal/middleware"
+	"gex/app/account/rpc/accountservice"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/rest"
 	"github.com/zeromicro/go-zero/zrpc"

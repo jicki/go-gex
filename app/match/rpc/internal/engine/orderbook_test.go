@@ -2,10 +2,10 @@ package engine
 
 import (
 	"fmt"
-	"github.com/luxun9527/gex/app/match/rpc/internal/config"
-	"github.com/luxun9527/gex/common/proto/define"
-	enum "github.com/luxun9527/gex/common/proto/enum"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/match/rpc/internal/config"
+	"gex/common/proto/define"
+	enum "gex/common/proto/enum"
+	"gex/common/utils"
 	"github.com/shopspring/decimal"
 	"github.com/zeromicro/go-zero/core/stringx"
 	"math/rand"

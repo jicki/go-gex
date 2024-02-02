@@ -3,16 +3,16 @@ package logic
 import (
 	"context"
 	"errors"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/proto/enum"
+	matchMq "gex/common/proto/mq/match"
 	"github.com/apache/pulsar-client-go/pulsar"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/enum"
-	matchMq "github.com/luxun9527/gex/common/proto/mq/match"
 	"google.golang.org/protobuf/proto"
 	"gorm.io/gorm"
 
-	"github.com/luxun9527/gex/app/order/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/pb"
+	"gex/app/order/rpc/internal/svc"
+	"gex/app/order/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

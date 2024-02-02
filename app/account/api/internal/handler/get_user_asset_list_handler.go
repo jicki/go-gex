@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"github.com/luxun9527/gex/app/account/api/internal/logic"
-	"github.com/luxun9527/gex/app/account/api/internal/svc"
-	"github.com/luxun9527/gex/common/pkg/response"
+	"gex/app/account/api/internal/logic"
+	"gex/app/account/api/internal/svc"
+	"gex/common/pkg/response"
 	"net/http"
 )
 

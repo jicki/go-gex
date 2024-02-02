@@ -1,6 +1,6 @@
 syntax = "proto3";
 package commonMq;
-option go_package = "github.com/luxun9527/gex/common/proto/mq/match;match";
+option go_package = "gex/common/proto/mq/match;match";
 import "enum/enum.proto";
 
 message MatchReq{

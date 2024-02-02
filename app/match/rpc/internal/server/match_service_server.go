@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"github.com/luxun9527/gex/app/match/rpc/internal/logic"
-	"github.com/luxun9527/gex/app/match/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/match/rpc/pb"
+	"gex/app/match/rpc/internal/logic"
+	"gex/app/match/rpc/internal/svc"
+	"gex/app/match/rpc/pb"
 )
 
 type MatchServiceServer struct {

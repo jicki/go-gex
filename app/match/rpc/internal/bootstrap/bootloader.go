@@ -2,13 +2,13 @@ package bootstrap
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/match/rpc/internal/consumer"
-	"github.com/luxun9527/gex/app/match/rpc/internal/engine"
-	"github.com/luxun9527/gex/app/match/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/orderservice"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/enum"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/match/rpc/internal/consumer"
+	"gex/app/match/rpc/internal/engine"
+	"gex/app/match/rpc/internal/svc"
+	"gex/app/order/rpc/orderservice"
+	"gex/common/pkg/logger"
+	"gex/common/proto/enum"
+	"gex/common/utils"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

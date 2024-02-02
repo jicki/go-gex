@@ -6,7 +6,7 @@ package accountservice
 import (
 	"context"
 
-	"github.com/luxun9527/gex/app/account/rpc/pb"
+	"gex/app/account/rpc/pb"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

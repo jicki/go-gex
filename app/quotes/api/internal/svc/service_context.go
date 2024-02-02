@@ -2,12 +2,12 @@ package svc
 
 import (
 	"encoding/json"
-	matchpb "github.com/luxun9527/gex/app/match/rpc/pb"
-	"github.com/luxun9527/gex/app/quotes/api/internal/config"
-	klinepb "github.com/luxun9527/gex/app/quotes/kline/rpc/pb"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/pkg/pool"
+	matchpb "gex/app/match/rpc/pb"
+	"gex/app/quotes/api/internal/config"
+	klinepb "gex/app/quotes/kline/rpc/pb"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/pkg/pool"
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/grpc"
 )

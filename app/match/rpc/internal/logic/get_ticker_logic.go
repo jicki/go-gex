@@ -3,14 +3,14 @@ package logic
 import (
 	"context"
 	"encoding/json"
-	"github.com/luxun9527/gex/app/match/rpc/internal/dao/model"
-	"github.com/luxun9527/gex/app/match/rpc/internal/svc"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/define"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/match/rpc/internal/dao/model"
+	"gex/app/match/rpc/internal/svc"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/proto/define"
+	"gex/common/utils"
 
-	"github.com/luxun9527/gex/app/match/rpc/pb"
+	"gex/app/match/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

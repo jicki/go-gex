@@ -19,7 +19,7 @@ genorder:
 enum:
 	protoc   -I. --go_out=../  common/proto/enum/*.proto
 matchmq:
-	#--go_out指定的路径和option go_package = "github.com/luxun9527/gex/common/proto/mq/match;proto"; 指定的路径一起决定文件生成的位置 这个路径github.com/luxun9527/gex/common/proto/mq/match也是别人导入时用到的路径。
+	#--go_out指定的路径和option go_package = "gex/common/proto/mq/match;proto"; 指定的路径一起决定文件生成的位置 这个路径github.com/luxun9527/gex/common/proto/mq/match也是别人导入时用到的路径。
 	protoc    -Icommon/proto -I./ --go_out=../ common/proto/mq/match/match.proto && make matchmodel
 matchrpc:
 	goctl rpc  protoc -I./ -Icommon/proto app/match/rpc/pb/match.proto --go_out=app/match/rpc --go-grpc_out=app/match/rpc   --zrpc_out=app/match/rpc -style=go_zero  -home=template

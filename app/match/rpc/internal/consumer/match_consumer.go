@@ -2,12 +2,12 @@ package consumer
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/match/rpc/internal/engine"
-	"github.com/luxun9527/gex/app/match/rpc/internal/svc"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/enum"
-	matchMq "github.com/luxun9527/gex/common/proto/mq/match"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/match/rpc/internal/engine"
+	"gex/app/match/rpc/internal/svc"
+	"gex/common/pkg/logger"
+	"gex/common/proto/enum"
+	matchMq "gex/common/proto/mq/match"
+	"gex/common/utils"
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/protobuf/proto"
 )

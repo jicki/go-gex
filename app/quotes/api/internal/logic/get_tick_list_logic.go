@@ -2,11 +2,11 @@ package logic
 
 import (
 	"context"
-	matchpb "github.com/luxun9527/gex/app/match/rpc/pb"
-	"github.com/luxun9527/gex/common/errs"
+	matchpb "gex/app/match/rpc/pb"
+	"gex/common/errs"
 
-	"github.com/luxun9527/gex/app/quotes/api/internal/svc"
-	"github.com/luxun9527/gex/app/quotes/api/internal/types"
+	"gex/app/quotes/api/internal/svc"
+	"gex/app/quotes/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

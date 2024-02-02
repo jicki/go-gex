@@ -2,19 +2,19 @@ package logic
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/account/rpc/accountservice"
-	matchpb "github.com/luxun9527/gex/app/match/rpc/pb"
-	orderpb "github.com/luxun9527/gex/app/order/rpc/pb"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/define"
-	enum "github.com/luxun9527/gex/common/proto/enum"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/account/rpc/accountservice"
+	matchpb "gex/app/match/rpc/pb"
+	orderpb "gex/app/order/rpc/pb"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/proto/define"
+	enum "gex/common/proto/enum"
+	"gex/common/utils"
 	"github.com/shopspring/decimal"
 	"github.com/spf13/cast"
 
-	"github.com/luxun9527/gex/app/order/api/internal/svc"
-	"github.com/luxun9527/gex/app/order/api/internal/types"
+	"gex/app/order/api/internal/svc"
+	"gex/app/order/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

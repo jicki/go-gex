@@ -1,11 +1,11 @@
 package handler
 
 import (
-	"github.com/luxun9527/gex/app/account/api/internal/logic"
-	"github.com/luxun9527/gex/app/account/api/internal/svc"
-	"github.com/luxun9527/gex/app/account/api/internal/types"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/response"
+	"gex/app/account/api/internal/logic"
+	"gex/app/account/api/internal/svc"
+	"gex/app/account/api/internal/types"
+	"gex/common/errs"
+	"gex/common/pkg/response"
 	"github.com/zeromicro/go-zero/rest/httpx"
 	"net/http"
 )

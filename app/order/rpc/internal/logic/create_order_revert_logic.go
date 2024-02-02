@@ -3,15 +3,15 @@ package logic
 import (
 	"context"
 	"database/sql"
+	"gex/app/order/rpc/internal/dao/model"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/proto/enum"
 	"github.com/dtm-labs/client/dtmgrpc"
-	"github.com/luxun9527/gex/app/order/rpc/internal/dao/model"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/enum"
 	"gorm.io/gorm"
 
-	"github.com/luxun9527/gex/app/order/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/pb"
+	"gex/app/order/rpc/internal/svc"
+	"gex/app/order/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

@@ -11,7 +11,7 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	enum "github.com/luxun9527/gex/common/proto/enum"
+	enum "gex/common/proto/enum"
 )
 
 const (

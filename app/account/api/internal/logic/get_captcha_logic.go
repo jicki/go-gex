@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"github.com/luxun9527/gex/app/account/api/internal/svc"
-	"github.com/luxun9527/gex/app/account/api/internal/types"
+	"gex/app/account/api/internal/svc"
+	"gex/app/account/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

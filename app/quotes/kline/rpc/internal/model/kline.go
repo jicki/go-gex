@@ -1,12 +1,12 @@
 package model
 
 import (
+	"gex/app/quotes/kline/rpc/internal/dao/model"
+	"gex/app/quotes/kline/rpc/pb"
+	"gex/common/proto/define"
+	commonWs "gex/common/proto/ws"
+	"gex/common/utils"
 	"github.com/apache/pulsar-client-go/pulsar"
-	"github.com/luxun9527/gex/app/quotes/kline/rpc/internal/dao/model"
-	"github.com/luxun9527/gex/app/quotes/kline/rpc/pb"
-	"github.com/luxun9527/gex/common/proto/define"
-	commonWs "github.com/luxun9527/gex/common/proto/ws"
-	"github.com/luxun9527/gex/common/utils"
 	"github.com/shopspring/decimal"
 )
 

@@ -3,13 +3,13 @@ package logic
 import (
 	"context"
 	"errors"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/utils"
 	"gorm.io/gorm"
 
-	"github.com/luxun9527/gex/app/account/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/account/rpc/pb"
+	"gex/app/account/rpc/internal/svc"
+	"gex/app/account/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

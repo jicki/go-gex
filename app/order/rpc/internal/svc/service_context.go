@@ -1,19 +1,19 @@
 package svc
 
 import (
+	"gex/app/order/rpc/internal/config"
+	"gex/app/order/rpc/internal/dao/query"
+	"gex/common/pkg/logger"
+	"gex/common/pkg/snowflake"
 	"github.com/apache/pulsar-client-go/pulsar"
 	"github.com/dtm-labs/client/dtmgrpc/dtmgimp"
 	"github.com/dtm-labs/client/dtmgrpc/dtmgpb"
-	"github.com/luxun9527/gex/app/order/rpc/internal/config"
-	"github.com/luxun9527/gex/app/order/rpc/internal/dao/query"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/pkg/snowflake"
 	ws "github.com/luxun9527/gpush/proto"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/zrpc"
 	"time"
 
-	pulsarConfig "github.com/luxun9527/gex/common/pkg/pulsar"
+	pulsarConfig "gex/common/pkg/pulsar"
 )
 
 type ServiceContext struct {

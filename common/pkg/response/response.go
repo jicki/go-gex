@@ -1,8 +1,8 @@
 package response
 
 import (
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/rest/httpx"
 	codes "google.golang.org/grpc/codes"

@@ -6,7 +6,7 @@ package klineservice
 import (
 	"context"
 
-	"github.com/luxun9527/gex/app/quotes/kline/rpc/pb"
+	"gex/app/quotes/kline/rpc/pb"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

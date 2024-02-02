@@ -2,10 +2,10 @@ package logic
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/match/rpc/pb"
-	"github.com/luxun9527/gex/app/quotes/api/internal/svc"
-	"github.com/luxun9527/gex/app/quotes/api/internal/types"
-	"github.com/luxun9527/gex/common/errs"
+	"gex/app/match/rpc/pb"
+	"gex/app/quotes/api/internal/svc"
+	"gex/app/quotes/api/internal/types"
+	"gex/common/errs"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

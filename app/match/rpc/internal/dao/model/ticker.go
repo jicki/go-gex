@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/luxun9527/gex/common/proto/define"
-	"github.com/luxun9527/gex/common/proto/ws"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/common/proto/define"
+	"gex/common/proto/ws"
+	"gex/common/utils"
 	"github.com/shopspring/decimal"
 )
 

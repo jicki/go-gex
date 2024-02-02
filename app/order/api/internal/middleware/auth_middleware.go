@@ -2,10 +2,10 @@ package middleware
 
 import (
 	"context"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/response"
+	"gex/common/errs"
+	"gex/common/pkg/response"
 
-	"github.com/luxun9527/gex/app/account/rpc/accountservice"
+	"gex/app/account/rpc/accountservice"
 	"net/http"
 )
 

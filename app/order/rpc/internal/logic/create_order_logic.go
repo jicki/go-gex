@@ -3,14 +3,14 @@ package logic
 import (
 	"context"
 	"database/sql"
+	"gex/app/order/rpc/internal/dao/model"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	enum "gex/common/proto/enum"
+	matchMq "gex/common/proto/mq/match"
+	commonWs "gex/common/proto/ws"
 	"github.com/apache/pulsar-client-go/pulsar"
 	"github.com/dtm-labs/client/dtmgrpc"
-	"github.com/luxun9527/gex/app/order/rpc/internal/dao/model"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	enum "github.com/luxun9527/gex/common/proto/enum"
-	matchMq "github.com/luxun9527/gex/common/proto/mq/match"
-	commonWs "github.com/luxun9527/gex/common/proto/ws"
 	gpush "github.com/luxun9527/gpush/proto"
 	"github.com/spf13/cast"
 	"github.com/zeromicro/go-zero/core/utils"
@@ -18,9 +18,9 @@ import (
 	"gorm.io/gorm"
 	"time"
 
-	"github.com/luxun9527/gex/app/order/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/pb"
-	commonUtils "github.com/luxun9527/gex/common/utils"
+	"gex/app/order/rpc/internal/svc"
+	"gex/app/order/rpc/pb"
+	commonUtils "gex/common/utils"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

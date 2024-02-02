@@ -1,8 +1,8 @@
 package svc
 
 import (
-	"github.com/luxun9527/gex/app/admin/api/internal/config"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/app/admin/api/internal/config"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/core/logx"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

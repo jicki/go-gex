@@ -1,6 +1,6 @@
 syntax = "proto3";
 package commonEnum;
-option go_package = "github.com/luxun9527/gex/common/proto/enum;enum";
+option go_package = "gex/common/proto/enum;enum";
 //买卖方向
 enum Side{
   //未知

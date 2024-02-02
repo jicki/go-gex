@@ -3,18 +3,18 @@ package logic
 import (
 	"context"
 	"errors"
-	"github.com/luxun9527/gex/app/account/rpc/internal/dao/model"
-	"github.com/luxun9527/gex/app/account/rpc/internal/dao/query"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/proto/define"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/account/rpc/internal/dao/model"
+	"gex/app/account/rpc/internal/dao/query"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
+	"gex/common/proto/define"
+	"gex/common/utils"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"time"
 
-	"github.com/luxun9527/gex/app/account/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/account/rpc/pb"
+	"gex/app/account/rpc/internal/svc"
+	"gex/app/account/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

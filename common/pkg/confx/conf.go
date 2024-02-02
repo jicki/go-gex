@@ -3,8 +3,8 @@ package confx
 import (
 	"context"
 	"encoding/json"
-	"github.com/luxun9527/gex/common/pkg/etcd"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/common/pkg/etcd"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"
 	"go.etcd.io/etcd/api/v3/mvccpb"

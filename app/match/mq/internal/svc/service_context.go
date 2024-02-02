@@ -1,13 +1,13 @@
 package svc
 
 import (
+	"gex/app/match/mq/internal/config"
+	"gex/app/match/mq/internal/dao/model"
+	"gex/app/match/mq/internal/dao/query"
+	"gex/app/order/rpc/orderservice"
+	"gex/common/pkg/logger"
+	pulsarConfig "gex/common/pkg/pulsar"
 	"github.com/apache/pulsar-client-go/pulsar"
-	"github.com/luxun9527/gex/app/match/mq/internal/config"
-	"github.com/luxun9527/gex/app/match/mq/internal/dao/model"
-	"github.com/luxun9527/gex/app/match/mq/internal/dao/query"
-	"github.com/luxun9527/gex/app/order/rpc/orderservice"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	pulsarConfig "github.com/luxun9527/gex/common/pkg/pulsar"
 	gpushPb "github.com/luxun9527/gpush/proto"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/core/stores/redis"

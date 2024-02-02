@@ -1,7 +1,7 @@
 package errs
 
 import (
-	"github.com/luxun9527/gex/common/pkg/confx"
+	"gex/common/pkg/confx"
 	"github.com/zeromicro/go-zero/core/logx"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"

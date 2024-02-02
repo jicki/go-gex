@@ -2,10 +2,10 @@ package logic
 
 import (
 	"context"
-	"github.com/luxun9527/gex/common/proto/enum"
+	"gex/common/proto/enum"
 
-	"github.com/luxun9527/gex/app/order/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/pb"
+	"gex/app/order/rpc/internal/svc"
+	"gex/app/order/rpc/pb"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

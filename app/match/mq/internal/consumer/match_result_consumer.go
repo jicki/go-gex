@@ -2,12 +2,12 @@ package consumer
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/match/mq/internal/dao/model"
-	"github.com/luxun9527/gex/app/match/mq/internal/logic"
-	"github.com/luxun9527/gex/app/match/mq/internal/svc"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	matchMq "github.com/luxun9527/gex/common/proto/mq/match"
-	"github.com/luxun9527/gex/common/utils"
+	"gex/app/match/mq/internal/dao/model"
+	"gex/app/match/mq/internal/logic"
+	"gex/app/match/mq/internal/svc"
+	"gex/common/pkg/logger"
+	matchMq "gex/common/proto/mq/match"
+	"gex/common/utils"
 	"github.com/zeromicro/go-zero/core/logx"
 	"google.golang.org/protobuf/proto"
 )

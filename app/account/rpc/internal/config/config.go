@@ -1,10 +1,10 @@
 package config
 
 import (
-	commongorm "github.com/luxun9527/gex/common/pkg/gorm"
-	"github.com/luxun9527/gex/common/pkg/logger"
-	"github.com/luxun9527/gex/common/pkg/pulsar"
-	"github.com/luxun9527/gex/common/proto/define"
+	commongorm "gex/common/pkg/gorm"
+	"gex/common/pkg/logger"
+	"gex/common/pkg/pulsar"
+	"gex/common/proto/define"
 	"github.com/zeromicro/go-zero/core/stores/redis"
 	"github.com/zeromicro/go-zero/zrpc"
 )

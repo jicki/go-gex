@@ -2,7 +2,7 @@ package pool
 
 import (
 	"context"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/core/logx"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"

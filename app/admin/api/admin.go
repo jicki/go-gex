@@ -3,12 +3,12 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/luxun9527/gex/common/pkg/validatorx"
+	"gex/common/pkg/validatorx"
 	"github.com/zeromicro/go-zero/rest/httpx"
 
-	"github.com/luxun9527/gex/app/admin/api/internal/config"
-	"github.com/luxun9527/gex/app/admin/api/internal/handler"
-	"github.com/luxun9527/gex/app/admin/api/internal/svc"
+	"gex/app/admin/api/internal/config"
+	"gex/app/admin/api/internal/handler"
+	"gex/app/admin/api/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

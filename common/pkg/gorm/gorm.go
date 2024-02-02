@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/common/pkg/logger"
 	"github.com/spf13/cast"
 	"github.com/zeromicro/go-zero/core/logx"
 	"go.uber.org/zap"

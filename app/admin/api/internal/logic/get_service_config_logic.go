@@ -2,10 +2,10 @@ package logic
 
 import (
 	"context"
-	"github.com/luxun9527/gex/app/admin/api/internal/svc"
-	"github.com/luxun9527/gex/app/admin/api/internal/types"
-	"github.com/luxun9527/gex/common/errs"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/app/admin/api/internal/svc"
+	"gex/app/admin/api/internal/types"
+	"gex/common/errs"
+	"gex/common/pkg/logger"
 	"gopkg.in/yaml.v3"
 
 	"github.com/zeromicro/go-zero/core/logx"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"mime/multipart"
 
-	"github.com/luxun9527/gex/app/admin/api/internal/svc"
-	"github.com/luxun9527/gex/app/admin/api/internal/types"
+	"gex/app/admin/api/internal/svc"
+	"gex/app/admin/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

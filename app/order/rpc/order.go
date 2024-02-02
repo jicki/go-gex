@@ -2,12 +2,12 @@ package main
 
 import (
 	"flag"
-	"github.com/luxun9527/gex/app/order/rpc/internal/config"
-	"github.com/luxun9527/gex/app/order/rpc/internal/consumer"
-	"github.com/luxun9527/gex/app/order/rpc/internal/server"
-	"github.com/luxun9527/gex/app/order/rpc/internal/svc"
-	"github.com/luxun9527/gex/app/order/rpc/pb"
-	"github.com/luxun9527/gex/common/pkg/logger"
+	"gex/app/order/rpc/internal/config"
+	"gex/app/order/rpc/internal/consumer"
+	"gex/app/order/rpc/internal/server"
+	"gex/app/order/rpc/internal/svc"
+	"gex/app/order/rpc/pb"
+	"gex/common/pkg/logger"
 	"github.com/zeromicro/go-zero/core/logx"
 
 	"github.com/zeromicro/go-zero/core/conf"
